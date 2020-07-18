@@ -1,0 +1,58 @@
+{
+  "name": "google-apps-script-webpack-dev-server",
+  "version": "1.0.0",
+  "description": "Webpack Dev Server fork for github.com/enuchi/React-Google-Apps-Script",
+  "main": "build/index.html",
+  "files": [
+    "build/index.html"
+  ],
+  "scripts": {
+    "prepack": "npm run build",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enuchi/Google-Apps-Script-Webpack-Dev-Server.git"
+  },
+  "keywords": [
+    "Goole",
+    "Apps",
+    "Script",
+    "GAS",
+    "Webpack",
+    "Dev",
+    "Servr"
+  ],
+  "author": "Elisha Nuchi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/enuchi/Google-Apps-Script-Webpack-Dev-Server/issues"
+  },
+  "homepage": "https://github.com/enuchi/Google-Apps-Script-Webpack-Dev-Server#readme",
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.1.0",
+    "copy-webpack-plugin": "^6.0.3",
+    "css-loader": "^3.6.0",
+    "eslint": "^7.4.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-babel": "^5.3.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "html-loader": "^1.1.0",
+    "html-webpack-inline-source-plugin": "1.0.0-beta.2",
+    "html-webpack-plugin": "^4.3.0",
+    "prettier": "2.0.5",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "sockjs-client": "^1.4.0",
+    "uuid": "^8.2.0"
+  }
+}
