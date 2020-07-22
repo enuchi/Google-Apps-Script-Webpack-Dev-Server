@@ -6,7 +6,7 @@ Here's how a deployed [React / Google Apps Script](https://github.com/enuchi/Rea
 
 **Production environment:**
 
-A. Google Apps Script dialog window is loaded in Google Sheets.
+    A. Google Apps Script dialog window is loaded in Google Sheets.
 
     B. Your React app is an HTML page loaded directly inside the dialog window that can interact with your Google Apps server-side public functions.
 
@@ -14,11 +14,11 @@ Using this package, here's how it looks for development purposes:
 
 **Development environment:**
 
-A. Google Apps Script dialog window is loaded in Google Sheets.
+    A. Google Apps Script dialog window is loaded in Google Sheets.
 
     B. A simple React app is loaded inside the dialog window, which contains an iframe pointing to a locally running Dev Server (this package). The Dev Server loads an iframe that runs your embedded app during development and passes requests between the app and the parent Google Apps Script.
 
-    B. Your React app is an HTML page loaded locally inside our custom Dev Server's iframe that can interact with your Google Apps server-side public functions, because the Dev Server is set up to pass requests to the Google Apps Script environment.
+    C. Your React app is an HTML page loaded locally inside our custom Dev Server's iframe that can interact with your Google Apps server-side public functions, because the Dev Server is set up to pass requests to the Google Apps Script environment.
 
 In short, this package acts as a sort of middle layer, for development purposes, between a Google Apps Script environment and your local environment, so that server functions can be called during development.
 
